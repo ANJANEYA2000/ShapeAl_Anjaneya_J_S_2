@@ -11,6 +11,7 @@ app.post("/",function(req,res){
   var n2=Number(req.body.num2);
   var result=n1/(n2*n2);
   res.send("The answer is" + result);
+  
 });
 
 app.listen(3000,function(){
